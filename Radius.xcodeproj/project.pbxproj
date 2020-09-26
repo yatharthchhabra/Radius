@@ -26,6 +26,7 @@
 		C51C2CD9251FA3D30094EE74 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */; };
 		C51C2CDB251FA40A0094EE74 /* RadarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CDA251FA40A0094EE74 /* RadarControl.swift */; };
 		C51C2CDD251FA4770094EE74 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */; };
+		C51C2CDF251FA4B40094EE74 /* LocationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CDE251FA4B40094EE74 /* LocationTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
 		C51C2CDA251FA40A0094EE74 /* RadarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarControl.swift; sourceTree = "<group>"; };
 		C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		C51C2CDE251FA4B40094EE74 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */,
 				C51C2CDA251FA40A0094EE74 /* RadarControl.swift */,
 				C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */,
+				C51C2CDE251FA4B40094EE74 /* LocationTableViewCell.swift */,
 				C51C2CB3251FA1C40094EE74 /* Main.storyboard */,
 				C51C2CB9251FA1C60094EE74 /* Assets.xcassets */,
 				C51C2CBB251FA1C60094EE74 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 				C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */,
 				C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */,
 				C51C2CB8251FA1C40094EE74 /* Radius.xcdatamodeld in Sources */,
+				C51C2CDF251FA4B40094EE74 /* LocationTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
