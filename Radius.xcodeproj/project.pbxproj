@@ -14,6 +14,10 @@
 		C51C2CB8251FA1C40094EE74 /* Radius.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CB6251FA1C40094EE74 /* Radius.xcdatamodeld */; };
 		C51C2CBA251FA1C60094EE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C2CB9251FA1C60094EE74 /* Assets.xcassets */; };
 		C51C2CBD251FA1C60094EE74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C2CBB251FA1C60094EE74 /* LaunchScreen.storyboard */; };
+		C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CC5251FA2530094EE74 /* ViewController.swift */; };
+		C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CC7251FA2710094EE74 /* SignUpViewController.swift */; };
+		C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CC9251FA29C0094EE74 /* LoginViewController.swift */; };
+		C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CCB251FA2B10094EE74 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		C51C2CB9251FA1C60094EE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C51C2CBC251FA1C60094EE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C51C2CBE251FA1C60094EE74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C51C2CC5251FA2530094EE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C51C2CC7251FA2710094EE74 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C51C2CC9251FA29C0094EE74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C51C2CCB251FA2B10094EE74 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */,
+				C51C2CC4251FA2360094EE74 /* Firebase VC's */,
 				C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */,
 				C51C2CB1251FA1C40094EE74 /* ViewController.swift */,
 				C51C2CB3251FA1C40094EE74 /* Main.storyboard */,
@@ -68,6 +77,17 @@
 				C51C2CB6251FA1C40094EE74 /* Radius.xcdatamodeld */,
 			);
 			path = Radius;
+			sourceTree = "<group>";
+		};
+		C51C2CC4251FA2360094EE74 /* Firebase VC's */ = {
+			isa = PBXGroup;
+			children = (
+				C51C2CC5251FA2530094EE74 /* ViewController.swift */,
+				C51C2CC7251FA2710094EE74 /* SignUpViewController.swift */,
+				C51C2CC9251FA29C0094EE74 /* LoginViewController.swift */,
+				C51C2CCB251FA2B10094EE74 /* Utilities.swift */,
+			);
+			path = "Firebase VC's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +161,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */,
+				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
+				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
 				C51C2CB2251FA1C40094EE74 /* ViewController.swift in Sources */,
 				C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */,
 				C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */,
+				C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */,
 				C51C2CB8251FA1C40094EE74 /* Radius.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
