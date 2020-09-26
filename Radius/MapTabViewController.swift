@@ -6,6 +6,7 @@
 //  Copyright © 2020 Yatharth Chhabra. All rights reserved.
 //
 import UIKit
+import SwiftUI
 import BLTNBoard
 
 class MapTabViewController: UIViewController {
@@ -58,6 +59,9 @@ class MapTabViewController: UIViewController {
         let main = storyboard?.instantiateViewController(identifier: "start") as? NavViewController
         view.window?.rootViewController = main
         view.window?.makeKeyAndVisible()
+    }
+    @IBSegueAction func swiftUIAction(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: NewView())
     }
 }
 

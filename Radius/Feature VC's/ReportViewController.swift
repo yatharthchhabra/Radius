@@ -6,9 +6,6 @@
 //  Copyright © 2020 Yatharth Chhabra. All rights reserved.
 //
 
-import UIKit
-
-class ReportViewController: UIViewController {
 
    import UIKit
     import Firebase

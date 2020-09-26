@@ -3,13 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F299B7E97AF02AA2AA8C4BF /* Pods_Radius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414382FC7CC0A17C4E18529F /* Pods_Radius.framework */; };
+		482BFB15251FB52A00C3A999 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482BFB14251FB52A00C3A999 /* GoogleService-Info.plist */; };
+		482BFB17251FB61300C3A999 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BFB16251FB61300C3A999 /* NewView.swift */; };
 		C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */; };
 		C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */; };
-		C51C2CB2251FA1C40094EE74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CB1251FA1C40094EE74 /* ViewController.swift */; };
 		C51C2CB5251FA1C40094EE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C2CB3251FA1C40094EE74 /* Main.storyboard */; };
 		C51C2CB8251FA1C40094EE74 /* Radius.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CB6251FA1C40094EE74 /* Radius.xcdatamodeld */; };
 		C51C2CBA251FA1C60094EE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C51C2CB9251FA1C60094EE74 /* Assets.xcassets */; };
@@ -30,10 +32,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		414382FC7CC0A17C4E18529F /* Pods_Radius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47FEB326552038A034CB201E /* Pods-Radius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radius.debug.xcconfig"; path = "Target Support Files/Pods-Radius/Pods-Radius.debug.xcconfig"; sourceTree = "<group>"; };
+		482BFB14251FB52A00C3A999 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		482BFB16251FB61300C3A999 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
 		C51C2CAA251FA1C40094EE74 /* Radius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C51C2CB1251FA1C40094EE74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C51C2CB4251FA1C40094EE74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C51C2CB7251FA1C40094EE74 /* Radius.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radius.xcdatamodel; sourceTree = "<group>"; };
 		C51C2CB9251FA1C60094EE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		C51C2CDA251FA40A0094EE74 /* RadarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarControl.swift; sourceTree = "<group>"; };
 		C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		C51C2CDE251FA4B40094EE74 /* LocationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTableViewCell.swift; sourceTree = "<group>"; };
+		D25A715A72663B5C7CFBAB98 /* Pods-Radius.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radius.release.xcconfig"; path = "Target Support Files/Pods-Radius/Pods-Radius.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,17 +65,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F299B7E97AF02AA2AA8C4BF /* Pods_Radius.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A72C93E27C9174351E566ADE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				414382FC7CC0A17C4E18529F /* Pods_Radius.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C51C2CA1251FA1C40094EE74 = {
 			isa = PBXGroup;
 			children = (
 				C51C2CAC251FA1C40094EE74 /* Radius */,
 				C51C2CAB251FA1C40094EE74 /* Products */,
+				CEA9D9A335BF2D540F5705B6 /* Pods */,
+				A72C93E27C9174351E566ADE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,8 +104,8 @@
 				C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */,
 				C51C2CC4251FA2360094EE74 /* Firebase VC's */,
 				C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */,
+				482BFB16251FB61300C3A999 /* NewView.swift */,
 				C51C2CCD251FA2D90094EE74 /* Feature VC's */,
-				C51C2CB1251FA1C40094EE74 /* ViewController.swift */,
 				C51C2CD2251FA3750094EE74 /* NavViewController.swift */,
 				C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */,
 				C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */,
@@ -100,6 +117,7 @@
 				C51C2CB9251FA1C60094EE74 /* Assets.xcassets */,
 				C51C2CBB251FA1C60094EE74 /* LaunchScreen.storyboard */,
 				C51C2CBE251FA1C60094EE74 /* Info.plist */,
+				482BFB14251FB52A00C3A999 /* GoogleService-Info.plist */,
 				C51C2CB6251FA1C40094EE74 /* Radius.xcdatamodeld */,
 			);
 			path = Radius;
@@ -125,6 +143,15 @@
 			path = "Feature VC's";
 			sourceTree = "<group>";
 		};
+		CEA9D9A335BF2D540F5705B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47FEB326552038A034CB201E /* Pods-Radius.debug.xcconfig */,
+				D25A715A72663B5C7CFBAB98 /* Pods-Radius.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C51C2CC1251FA1C60094EE74 /* Build configuration list for PBXNativeTarget "Radius" */;
 			buildPhases = (
+				0A043B45EF8E7717267E3AF2 /* [CP] Check Pods Manifest.lock */,
 				C51C2CA6251FA1C40094EE74 /* Sources */,
 				C51C2CA7251FA1C40094EE74 /* Frameworks */,
 				C51C2CA8251FA1C40094EE74 /* Resources */,
+				561C998206835A4347B2612F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -184,12 +213,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51C2CBD251FA1C60094EE74 /* LaunchScreen.storyboard in Resources */,
+				482BFB15251FB52A00C3A999 /* GoogleService-Info.plist in Resources */,
 				C51C2CBA251FA1C60094EE74 /* Assets.xcassets in Resources */,
 				C51C2CB5251FA1C40094EE74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A043B45EF8E7717267E3AF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Radius-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561C998206835A4347B2612F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radius/Pods-Radius-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Radius/Pods-Radius-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Radius/Pods-Radius-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C51C2CA6251FA1C40094EE74 /* Sources */ = {
@@ -206,8 +278,8 @@
 				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
 				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
 				C51C2CD7251FA3AC0094EE74 /* MapViewController.swift in Sources */,
-				C51C2CB2251FA1C40094EE74 /* ViewController.swift in Sources */,
 				C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */,
+				482BFB17251FB61300C3A999 /* NewView.swift in Sources */,
 				C51C2CCF251FA2FD0094EE74 /* ReportViewController.swift in Sources */,
 				C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */,
 				C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */,
@@ -354,11 +426,13 @@
 		};
 		C51C2CC2251FA1C60094EE74 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47FEB326552038A034CB201E /* Pods-Radius.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM3L6GXTU;
 				INFOPLIST_FILE = Radius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -372,11 +446,13 @@
 		};
 		C51C2CC3251FA1C60094EE74 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25A715A72663B5C7CFBAB98 /* Pods-Radius.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM3L6GXTU;
 				INFOPLIST_FILE = Radius/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
