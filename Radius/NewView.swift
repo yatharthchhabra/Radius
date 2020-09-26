@@ -14,7 +14,7 @@ struct NewView: View {
         NavigationView{
             Home()
                 .preferredColorScheme(.dark)
-//                .navigationTitle("")
+                .navigationTitle("")
                 .navigationBarHidden(true)
         }
     }
@@ -29,7 +29,7 @@ struct NewView_Preview: PreviewProvider {
 struct Home: View {
     
     @State var tab = "USA"
-//    @Namespace var animation
+    @Namespace var animation
     @State var subTab = "Today"
     @State var dailySaled = [
         // Last 7 Days...
@@ -57,22 +57,22 @@ struct Home: View {
                 
                 Spacer(minLength: 0)
                 
-                Button(action:{
-//                    self.link = NavigationDesintationLink()
-                    print("HI")
-                }){
-                    Image("bell").resizable()
-                        .renderingMode(.template)
-                        .foregroundColor(.white)
-                        .frame(width: 32.0, height: 32.0)
-                }
-//
-//                NavigationLink(destination: NewFile()){
+//                Button(action:{
+////                    self.link = NavigationDesintationLink()
+//                    print("HI")
+//                }){
 //                    Image("bell").resizable()
 //                        .renderingMode(.template)
 //                        .foregroundColor(.white)
 //                        .frame(width: 32.0, height: 32.0)
 //                }
+//
+                NavigationLink(destination: NewFile()){
+                    Image("bell").resizable()
+                        .renderingMode(.template)
+                        .foregroundColor(.white)
+                        .frame(width: 32.0, height: 32.0)
+                }
 //                NavigationButton(destination: Text("hi")){
 //                    Image("bell").resizable()
 //                        .renderingMode(.template)
@@ -84,7 +84,7 @@ struct Home: View {
             
             VStack{
                 Text("Dashboard")
-//                    .font(.title2)
+                    .font(.title2)
                     .fontWeight(.bold)
                     .foregroundColor(.white)
 //                Spacer(minLength: 0)
@@ -98,8 +98,8 @@ struct Home: View {
             .padding()
              
             HStack(spacing: 0){
-//                TabButton(selected: $tab, title: "USA", animation: animation)
-//                TabButton(selected: $tab, title: "Global", animation: animation)
+                TabButton(selected: $tab, title: "USA", animation: animation)
+                TabButton(selected: $tab, title: "Global", animation: animation)
             }
             .background(Color.white.opacity(0.08))
             .clipShape(Capsule())
@@ -138,7 +138,7 @@ struct Home: View {
                 VStack{
                     HStack{
                         Text("Daily Sold Units")
-//                            .font(.title2)
+                            .font(.title2)
                             .foregroundColor(.black)
                         
                         Spacer(minLength: 0)
@@ -186,7 +186,7 @@ var subTabs = ["Today", "Busiest Day"]
 struct TabButton: View {
     @Binding var selected : String
     var title : String
-//    var animation : Namespace.ID
+    var animation : Namespace.ID
     
     var body: some View{
         Button(action: {
@@ -205,7 +205,7 @@ struct TabButton: View {
                         .fill(Color.white)
                         .frame(height: 45)
                     // Matched Geometry Effect ...
-//                        .matchedGeometryEffect(id: "Tab", in: animation)
+                        .matchedGeometryEffect(id: "Tab", in: animation)
                 }
                 Text(title)
                     .foregroundColor(selected == title ? .black : .white)
@@ -250,7 +250,7 @@ struct SalesView: View {
                     Text(sale.title)
                         .foregroundColor(.white)
                     Text(sale.value)
-//                        .font(.title2)
+                        .font(.title2)
                         .fontWeight(.bold)
                         .foregroundColor(.white)
                 }
@@ -300,7 +300,7 @@ struct GraphView : View {
             }
             
             Text(customDateStyle(date: data.day))
-//                .font(.caption2)
+                .font(.caption2)
                 .foregroundColor(.gray)
         }
     }

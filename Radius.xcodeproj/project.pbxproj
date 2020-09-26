@@ -10,6 +10,7 @@
 		0F299B7E97AF02AA2AA8C4BF /* Pods_Radius.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 414382FC7CC0A17C4E18529F /* Pods_Radius.framework */; };
 		482BFB15251FB52A00C3A999 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 482BFB14251FB52A00C3A999 /* GoogleService-Info.plist */; };
 		482BFB17251FB61300C3A999 /* NewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BFB16251FB61300C3A999 /* NewView.swift */; };
+		482BFB19251FC5CA00C3A999 /* NewFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482BFB18251FC5CA00C3A999 /* NewFile.swift */; };
 		C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */; };
 		C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */; };
 		C51C2CB5251FA1C40094EE74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51C2CB3251FA1C40094EE74 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		47FEB326552038A034CB201E /* Pods-Radius.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radius.debug.xcconfig"; path = "Target Support Files/Pods-Radius/Pods-Radius.debug.xcconfig"; sourceTree = "<group>"; };
 		482BFB14251FB52A00C3A999 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		482BFB16251FB61300C3A999 /* NewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewView.swift; sourceTree = "<group>"; };
+		482BFB18251FC5CA00C3A999 /* NewFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFile.swift; sourceTree = "<group>"; };
 		C51C2CAA251FA1C40094EE74 /* Radius.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radius.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				C51C2CC4251FA2360094EE74 /* Firebase VC's */,
 				C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */,
 				482BFB16251FB61300C3A999 /* NewView.swift */,
+				482BFB18251FC5CA00C3A999 /* NewFile.swift */,
 				C51C2CCD251FA2D90094EE74 /* Feature VC's */,
 				C51C2CD2251FA3750094EE74 /* NavViewController.swift */,
 				C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */,
@@ -276,6 +279,7 @@
 				C51C2CDD251FA4770094EE74 /* HomeTabViewController.swift in Sources */,
 				C51C2CD3251FA3750094EE74 /* NavViewController.swift in Sources */,
 				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
+				482BFB19251FC5CA00C3A999 /* NewFile.swift in Sources */,
 				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
 				C51C2CD7251FA3AC0094EE74 /* MapViewController.swift in Sources */,
 				C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */,
@@ -432,7 +436,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM3L6GXTU;
 				INFOPLIST_FILE = Radius/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +456,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6WM3L6GXTU;
 				INFOPLIST_FILE = Radius/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
