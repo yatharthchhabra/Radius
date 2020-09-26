@@ -60,8 +60,5 @@ class MapTabViewController: UIViewController {
         view.window?.rootViewController = main
         view.window?.makeKeyAndVisible()
     }
-    @IBSegueAction func swiftUIAction(_ coder: NSCoder) -> UIViewController? {
-        return UIHostingController(coder: coder, rootView: NewView())
-    }
 }
 

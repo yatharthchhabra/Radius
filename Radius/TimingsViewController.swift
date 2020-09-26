@@ -8,6 +8,7 @@
 
 import UIKit
 import Charts
+import SwiftUI
 
 class TimingsViewController: UIViewController, ChartViewDelegate {
 
@@ -51,5 +52,9 @@ class TimingsViewController: UIViewController, ChartViewDelegate {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBSegueAction func swiftUIAction(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: NewView())
+    }
 
 }
