@@ -18,6 +18,8 @@
 		C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CC7251FA2710094EE74 /* SignUpViewController.swift */; };
 		C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CC9251FA29C0094EE74 /* LoginViewController.swift */; };
 		C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CCB251FA2B10094EE74 /* Utilities.swift */; };
+		C51C2CCF251FA2FD0094EE74 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CCE251FA2FD0094EE74 /* ReportViewController.swift */; };
+		C51C2CD1251FA3300094EE74 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD0251FA3300094EE74 /* LocationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		C51C2CC7251FA2710094EE74 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		C51C2CC9251FA29C0094EE74 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C51C2CCB251FA2B10094EE74 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		C51C2CCE251FA2FD0094EE74 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		C51C2CD0251FA3300094EE74 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 				C51C2CAD251FA1C40094EE74 /* AppDelegate.swift */,
 				C51C2CC4251FA2360094EE74 /* Firebase VC's */,
 				C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */,
+				C51C2CCD251FA2D90094EE74 /* Feature VC's */,
 				C51C2CB1251FA1C40094EE74 /* ViewController.swift */,
 				C51C2CB3251FA1C40094EE74 /* Main.storyboard */,
 				C51C2CB9251FA1C60094EE74 /* Assets.xcassets */,
@@ -88,6 +93,15 @@
 				C51C2CCB251FA2B10094EE74 /* Utilities.swift */,
 			);
 			path = "Firebase VC's";
+			sourceTree = "<group>";
+		};
+		C51C2CCD251FA2D90094EE74 /* Feature VC's */ = {
+			isa = PBXGroup;
+			children = (
+				C51C2CCE251FA2FD0094EE74 /* ReportViewController.swift */,
+				C51C2CD0251FA3300094EE74 /* LocationsViewController.swift */,
+			);
+			path = "Feature VC's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +176,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */,
+				C51C2CD1251FA3300094EE74 /* LocationsViewController.swift in Sources */,
 				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
 				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
 				C51C2CB2251FA1C40094EE74 /* ViewController.swift in Sources */,
 				C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */,
+				C51C2CCF251FA2FD0094EE74 /* ReportViewController.swift in Sources */,
 				C51C2CB0251FA1C40094EE74 /* SceneDelegate.swift in Sources */,
 				C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */,
 				C51C2CB8251FA1C40094EE74 /* Radius.xcdatamodeld in Sources */,
