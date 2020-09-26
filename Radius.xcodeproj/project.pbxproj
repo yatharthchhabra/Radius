@@ -24,6 +24,8 @@
 		C51C2CD5251FA38B0094EE74 /* TimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */; };
 		C51C2CD7251FA3AC0094EE74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */; };
 		C51C2CD9251FA3D30094EE74 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */; };
+		C51C2CDB251FA40A0094EE74 /* RadarControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CDA251FA40A0094EE74 /* RadarControl.swift */; };
+		C51C2CDD251FA4770094EE74 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingsViewController.swift; sourceTree = "<group>"; };
 		C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
+		C51C2CDA251FA40A0094EE74 /* RadarControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarControl.swift; sourceTree = "<group>"; };
+		C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 				C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */,
 				C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */,
 				C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */,
+				C51C2CDA251FA40A0094EE74 /* RadarControl.swift */,
+				C51C2CDC251FA4770094EE74 /* HomeTabViewController.swift */,
 				C51C2CB3251FA1C40094EE74 /* Main.storyboard */,
 				C51C2CB9251FA1C60094EE74 /* Assets.xcassets */,
 				C51C2CBB251FA1C60094EE74 /* LaunchScreen.storyboard */,
@@ -189,8 +195,10 @@
 			files = (
 				C51C2CD5251FA38B0094EE74 /* TimingsViewController.swift in Sources */,
 				C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */,
+				C51C2CDB251FA40A0094EE74 /* RadarControl.swift in Sources */,
 				C51C2CD1251FA3300094EE74 /* LocationsViewController.swift in Sources */,
 				C51C2CD9251FA3D30094EE74 /* MapTabViewController.swift in Sources */,
+				C51C2CDD251FA4770094EE74 /* HomeTabViewController.swift in Sources */,
 				C51C2CD3251FA3750094EE74 /* NavViewController.swift in Sources */,
 				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
 				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
