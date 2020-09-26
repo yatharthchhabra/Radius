@@ -20,6 +20,10 @@
 		C51C2CCC251FA2B10094EE74 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CCB251FA2B10094EE74 /* Utilities.swift */; };
 		C51C2CCF251FA2FD0094EE74 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CCE251FA2FD0094EE74 /* ReportViewController.swift */; };
 		C51C2CD1251FA3300094EE74 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD0251FA3300094EE74 /* LocationsViewController.swift */; };
+		C51C2CD3251FA3750094EE74 /* NavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD2251FA3750094EE74 /* NavViewController.swift */; };
+		C51C2CD5251FA38B0094EE74 /* TimingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */; };
+		C51C2CD7251FA3AC0094EE74 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */; };
+		C51C2CD9251FA3D30094EE74 /* MapTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		C51C2CCB251FA2B10094EE74 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		C51C2CCE251FA2FD0094EE74 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
 		C51C2CD0251FA3300094EE74 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		C51C2CD2251FA3750094EE74 /* NavViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavViewController.swift; sourceTree = "<group>"; };
+		C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimingsViewController.swift; sourceTree = "<group>"; };
+		C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTabViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,10 @@
 				C51C2CAF251FA1C40094EE74 /* SceneDelegate.swift */,
 				C51C2CCD251FA2D90094EE74 /* Feature VC's */,
 				C51C2CB1251FA1C40094EE74 /* ViewController.swift */,
+				C51C2CD2251FA3750094EE74 /* NavViewController.swift */,
+				C51C2CD4251FA38B0094EE74 /* TimingsViewController.swift */,
+				C51C2CD6251FA3AC0094EE74 /* MapViewController.swift */,
+				C51C2CD8251FA3D30094EE74 /* MapTabViewController.swift */,
 				C51C2CB3251FA1C40094EE74 /* Main.storyboard */,
 				C51C2CB9251FA1C60094EE74 /* Assets.xcassets */,
 				C51C2CBB251FA1C60094EE74 /* LaunchScreen.storyboard */,
@@ -175,10 +187,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51C2CD5251FA38B0094EE74 /* TimingsViewController.swift in Sources */,
 				C51C2CCA251FA29C0094EE74 /* LoginViewController.swift in Sources */,
 				C51C2CD1251FA3300094EE74 /* LocationsViewController.swift in Sources */,
+				C51C2CD9251FA3D30094EE74 /* MapTabViewController.swift in Sources */,
+				C51C2CD3251FA3750094EE74 /* NavViewController.swift in Sources */,
 				C51C2CC8251FA2710094EE74 /* SignUpViewController.swift in Sources */,
 				C51C2CC6251FA2530094EE74 /* ViewController.swift in Sources */,
+				C51C2CD7251FA3AC0094EE74 /* MapViewController.swift in Sources */,
 				C51C2CB2251FA1C40094EE74 /* ViewController.swift in Sources */,
 				C51C2CAE251FA1C40094EE74 /* AppDelegate.swift in Sources */,
 				C51C2CCF251FA2FD0094EE74 /* ReportViewController.swift in Sources */,
